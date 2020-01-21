@@ -7,6 +7,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%! private long visitCounter =0; %>
 <html>
 <head>
     <title>Witaj</title>
@@ -27,9 +28,22 @@
         <div style="clear: both" ;></div>
     </div>
 
+    <div class="square">
+        <br>
+        <br>
+        Licznik odwiedzin:
+        <br/>
+        <p><%=++visitCounter%></p>
+    </div>
+    <div class="square">
+        TEXT2
+
+    </div>
+    <div style="clear: both" ;></div>
 
 
-</div>
+
+    </div>
 
 </body>
 </html>

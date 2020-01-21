@@ -45,3 +45,19 @@ h1{
     margin-top: 5px;
 }
 
+.square{
+    border-radius: 25px;
+    background-color: #3095d3;
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+p{
+    font-size: 30px;
+}
